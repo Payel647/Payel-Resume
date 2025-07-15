@@ -12,7 +12,7 @@
     }
     .resume-container {
       background: #fff;
-      padding: 30px;
+      padding: 25px 30px;
       margin: 30px auto;
       max-width: 900px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
@@ -22,25 +22,34 @@
       font-size: 19px;
       font-weight: 600;
       border-bottom: 2px solid #ccc;
-      margin-top: 25px;
+      margin-top: 20px;
       margin-bottom: 10px;
       padding-bottom: 4px;
     }
+    ul {
+      padding-left: 18px;
+      margin-bottom: 0;
+    }
     ul li {
-      margin-bottom: 5px;
+      margin-bottom: 4px;
+    }
+    .text-sm {
+      font-size: 15px;
+    }
+    p {
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
   <div class="resume-container">
 
-    <!-- Name and Contact -->
+    <!-- Header -->
     <div class="text-center">
       <h1 class="mb-0">Payel Mallick</h1>
       <p class="text-muted">Full Stack Developer | Aspiring Software Engineer</p>
-      <p>Email: mallickpayel647@gmail.com | Phone: +91 9123871582</p>
-      <p>Location: Hooghly, West Bengal</p>
-      <p>
+      <p class="text-sm">mallickpayel647@gmail.com | +91 9123871582 | Hooghly, West Bengal</p>
+      <p class="text-sm">
         <a href="https://github.com/Payel647">GitHub</a> |
         <a href="https://www.linkedin.com/in/payel-mallick-9292a92a3/">LinkedIn</a> |
         <a href="https://leetcode.com/u/PAYEL_2006/">LeetCode</a>
@@ -50,7 +59,7 @@
     <!-- Career Objective -->
     <div>
       <h2 class="section-title">Career Objective</h2>
-      <p>
+      <p class="text-sm">
         Aspiring software engineer with strong interest in full stack development. Passionate about building scalable web applications using the MERN stack. Eager to contribute to real-world tech projects and grow as a developer.
       </p>
     </div>
@@ -59,22 +68,21 @@
     <div>
       <h2 class="section-title">Education</h2>
 
-      <div class="row mb-2">
+      <div class="row">
         <div class="col-md-6">
           <strong>B.Tech in Information Technology</strong><br>
-          <span>2023 – 2027</span><br>
-          <span>SGPA: Sem 1 – 9.46 | Sem 2 – 9.32 | Sem 3 – 9.35</span>
+          <span>2023 – 2027</span>
         </div>
         <div class="col-md-6 text-md-end">
-          <strong>Maulana Abul Kalam Azad University of Technology (MAKAUT), WB</strong><br>
-          <span>Kolkata, West Bengal</span>
+          <strong>MAKAUT, WB</strong><br>
+          <span>SGPA: Sem 1 – 9.46 | Sem 2 – 9.32 | Sem 3 – 9.35</span>
         </div>
       </div>
 
-      <div class="row mb-2">
+      <div class="row mt-2">
         <div class="col-md-6">
-          <strong>Class 12 (H.S.)</strong><br>
-          <span>WBCHSE | 2023</span>
+          <strong>Class 12 (WBCHSE)</strong><br>
+          <span>2023</span>
         </div>
         <div class="col-md-6 text-md-end">
           <strong>T.T. Dr. B.C. Roy Vidyalaya (H.S.)</strong><br>
@@ -82,10 +90,10 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-2">
         <div class="col-md-6">
-          <strong>Class 10 (Madhyamik)</strong><br>
-          <span>WBBSE | 2021</span>
+          <strong>Class 10 (WBBSE)</strong><br>
+          <span>2021</span>
         </div>
         <div class="col-md-6 text-md-end">
           <strong>T.T. Dr. B.C. Roy Vidyalaya (H.S.)</strong><br>
@@ -94,7 +102,7 @@
       </div>
     </div>
 
-    <!-- Skills -->
+    <!-- Technical Skills -->
     <div>
       <h2 class="section-title">Technical Skills</h2>
       <ul>
@@ -106,16 +114,27 @@
       </ul>
     </div>
 
+    <!-- Experience -->
+    <div>
+      <h2 class="section-title">Experience</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <strong>Web Development Team Member</strong><br>
+          <span>HACKAUT – College Coding Club, MAKAUT, WB · Part-time</span><br>
+          <span>Nov 2024 – Present · 9 months</span>
+        </div>
+      </div>
+    </div>
+
     <!-- Projects -->
     <div>
       <h2 class="section-title">Projects</h2>
 
-      <!-- Zerodha Project -->
-      <div class="row mb-3">
+      <div class="row mb-2">
         <div class="col-md-8">
           <strong>Zerodha Clone</strong><br>
           <span>MongoDB, Express.js, React, Node.js, Bootstrap, Material UI</span>
-          <ul class="mb-2">
+          <ul>
             <li>Real-time stock data integration</li>
             <li>User login, portfolio tracking</li>
             <li>Dashboards with interactive charts</li>
@@ -126,12 +145,11 @@
         </div>
       </div>
 
-      <!-- Airbnb Project -->
-      <div class="row mb-3">
+      <div class="row">
         <div class="col-md-8">
           <strong>Airbnb Clone</strong><br>
           <span>Express.js, MongoDB, Bootstrap, Passport.js</span>
-          <ul class="mb-2">
+          <ul>
             <li>User authentication with Cloudinary integration</li>
             <li>REST APIs for hotels, users, reviews</li>
             <li>Hotel listings with maps, error handling</li>
@@ -149,7 +167,7 @@
       <ul>
         <li>Scored <strong>100 out of 100</strong> in Mathematics in Class 10 (WBBSE)</li>
         <li>Scored <strong>97 out of 100</strong> in Mathematics in Class 12 (WBCHSE)</li>
-        <li>Solved <strong>100+ DSA problems</strong> on LeetCode, consistently improving problem-solving skills</li>
+        <li>Solved <strong>100+ DSA problems</strong> on LeetCode</li>
       </ul>
     </div>
 
@@ -158,15 +176,12 @@
       <h2 class="section-title">Certifications</h2>
       <ul>
         <li>
-          <strong>Basics of Python and AI</strong><br>
-          NavGurukul (AFE Bootcamp – Phase 1)<br>
-          Issued: July 2025
+          <strong>Basics of Python and AI</strong> – NavGurukul (AFE Bootcamp – Phase 1)<br>
+          <span>Issued: July 2025</span>
         </li>
         <li class="mt-2">
-          <strong>Postman API Fundamentals Student Expert</strong><br>
-          Canvas Credentials (Badgr)<br>
-          Credential ID: 66f3a33439ec6d11615021c8<br>
-          Issued: September 2024
+          <strong>Postman API Fundamentals Student Expert</strong> – Canvas Credentials (Badgr)<br>
+          <span>Credential ID: 66f3a33439ec6d11615021c8 | Issued: Sept 2024</span>
         </li>
       </ul>
     </div>
